@@ -155,13 +155,13 @@ To do this we will use the 'add' command:
   git add Lesson1-Git/newFile.js
 ```
 
-This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after, in quotes.
+This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you (or anyone) are looking for in the future, if you should need to. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after, in quotes.
 
 ```bash
   git commit -m 'added new file, newFile.js'
 ```
 
-Now that we have our changes saved locally, we want to share those changes in our Github. To do this we will "push"
+Now that we have our changes saved locally, we want to share those changes in our Github. To do this we will "push":
 
 ```bash
   git push
@@ -184,7 +184,7 @@ Congratulations! You just pushed your first git commit!
 
 ## Pull Requests
 
-Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows to owner(or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
+Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows the owner (or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
 
 In this exercise, we will submit a pull request through github.com
 
