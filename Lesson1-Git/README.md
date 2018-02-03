@@ -54,13 +54,13 @@ Within our terminal we can: traverse our file structure, add files, remove files
   $ mkdir [folder name]
 ```
 
-"Touch": will create a new file.
+"Touch": Will create a new file.
 
 ```bash
   $ touch [file]
 ```
 
-"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" or recycling can you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
+"Remove": Permanently deletes a file. (WARNING! This bypasses any "trashcan" or recycling can you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
 
 ```bash
   $ rm [file]
@@ -86,17 +86,17 @@ and press enter. Congratulations you have created a directory!
 
 ## Github
 
-As mentioned before, Github is a central place to store, view, and download repositories, it is not synonymous with "git". You need to have a Github account in order to complete this exercise.
+As mentioned before, Github is a central place to store, view, and download repositories. It is not synonymous with "git". You need to have a Github account in order to complete this exercise.
 
 ### Forking
 
-Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of (a / any ?) repository (as long as it is public) and do whatever work you would (like to that on ?) under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
 
-In order to fork a repo, you will visit the Github repo of your choosing (for this exercise we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on.
+In order to fork a repo, you will visit the Github repo of your choosing (for this exercise we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available ( to / for ? ) you to work on.
 
 ### Cloning
 
-In order to work on a project you must clone (download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and will can click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)
+In order to work on a project you must clone (download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and (will can ?) click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)
 
 Once you have the address copied, return to your terminal window and enter the following:
 
